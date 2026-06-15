@@ -48,7 +48,7 @@ Cabinetele mici gestionează uneori programările manual, în agende sau foi de 
 | NFR3 | Portabilitate | Aplicația trebuie să ruleze cu Java 17. |
 | NFR4 | Automatizare | Build-ul și testele trebuie să ruleze automat în CI. |
 | NFR5 | Calitate cod | Proiectul trebuie să includă analiză statică simplă. |
-| NFR6 | Deployment | Artefactul `.jar` trebuie copiat automat într-un folder de deployment. |
+| NFR6 | Deployment | Artefactul `.jar` trebuie copiat automat într-un folder de deployment. Posibila solutie in Maven: Se folosește plugin-ul maven-resources-plugin sau maven-antrun-plugin în fișierul pom.xml |
 
 ## 7. Constrângeri
 
