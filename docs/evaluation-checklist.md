@@ -43,11 +43,3 @@ chmod +x scripts/*.sh
 ./scripts/deploy.sh
 java -jar build/clinicqueue.jar
 ```
-
-## 5. Ce trebuie făcut înainte de predare
-
-- creează repository pe GitHub/GitLab/Bitbucket/Azure DevOps;
-- încarcă toate fișierele;
-- verifică rularea workflow-ului CI;
-- dacă repository-ul este privat, oferă acces profesorilor;
-- trimite proiectul cu minimum 3 zile înainte de examen.
