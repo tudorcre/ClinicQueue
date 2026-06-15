@@ -55,8 +55,6 @@ Cabinetele mici gestionează uneori programările manual, în agende sau foi de 
 - limbaj de programare: Java;
 - repository pe GitHub/GitLab/Bitbucket/Azure DevOps;
 - funcționalitate redusă, dar relevantă pentru un scenariu real;
-- prezentare succintă la examen;
-- predare cu minimum 3 zile înainte de examen.
 
 ## 8. Criterii de acceptare
 
