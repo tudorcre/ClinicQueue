@@ -40,13 +40,3 @@ Pentru demonstrație, se rulează:
 ```bash
 java -jar build/clinicqueue.jar
 ```
-
-Pași recomandați în prezentare:
-
-1. Se apasă butonul **Adaugă date exemplu**.
-2. Se creează manual o programare nouă cu o dată viitoare.
-3. Se caută un pacient după nume.
-4. Se selectează o programare și se apasă **Anulează selectată**.
-5. Se selectează o altă programare și se apasă **Reprogramează selectată**.
-
-Această demonstrație acoperă funcționalitățile principale și arată că aplicația are o interfață mai ușor de prezentat decât varianta de consolă.
