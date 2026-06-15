@@ -1,0 +1,8 @@
+build/
+deployment/*
+!deployment/.gitkeep
+*.class
+*.jar
+.DS_Store
+.idea/
+.vscode/

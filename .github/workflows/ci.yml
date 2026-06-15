@@ -1,0 +1,45 @@
+name: ClinicQueue CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  build-test-analyze-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh
+
+      - name: Static code analysis
+        run: ./scripts/static-analysis.sh
+
+      - name: Automatic build
+        run: ./scripts/build.sh
+
+      - name: Automatic unit testing execution
+        run: ./scripts/test.sh
+
+      - name: Simple deployment step
+        run: ./scripts/deploy.sh
+
+      - name: Upload deployment artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: clinicqueue-deployment
+          path: deployment/
