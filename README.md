@@ -98,11 +98,3 @@ Workflow-ul din `.github/workflows/ci.yml` rulează automat la `push` și `pull_
 - `docs/risk-log.md`;
 - `docs/evaluation-checklist.md`.
 
-## Cum se poate prezenta la examen
-
-1. Se explică problema: gestionarea programărilor într-un cabinet medical.
-2. Se prezintă comparația SWOT între PM tradițional și Agile/Scrum.
-3. Se arată documentele PM: requirements, charter/timeline sau backlog, risk log.
-4. Se pornește interfața grafică și se demonstrează alegerea datei din calendar, crearea/căutarea/anularea unei programări.
-5. Se deschide repository-ul și se arată codul sursă.
-6. Se rulează sau se arată pipeline-ul CI: build, teste, analiză statică și deployment.
